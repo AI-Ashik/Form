@@ -1,0 +1,158 @@
+<html>
+
+<head>
+
+<title> Form </title>
+
+</head>
+
+<body>
+
+<form>
+
+<fieldset>
+
+
+<legend style="font-size:35px; font-family:arial;"> Job Application </legend>
+
+<br>
+
+
+<div>
+
+<b> <label for="Fullname"> Full Name:<label>
+<input type="text" name="fullname" list="names" placeholder="Enter Your full Name" pattern="[a-zA-Z]+">
+
+</div>
+
+<br>
+
+<div>
+
+<label for="gender"> Gender: </label>
+<input type="radio" name="gender" value="Male" checked> Male 
+<input type="radio" name="gender" value="Female"> Female 
+<input type="radio" name="gender" value="Others"> Others
+
+</div>
+
+<br>
+
+<div>
+
+<label for="religion"> Religion: </label>
+<input type="checkbox" name="religion" value="Islam" checked> Islam 
+<input type="checkbox" name="religion" value="Hindu"> Hindu
+<input type="checkbox" name="religion" value="Others"> Others
+
+
+
+</div>
+
+<br>
+
+<div>
+
+<label for="Userid"> User Id: </label>
+<input type="text" name="userid" pattern="[a-z0-9]+"required>
+
+</div>
+
+<br>
+
+<div>
+
+<label for="email"> E-mail: </label>
+<input type="email" name="email" required>
+
+</div>
+
+<br>
+
+<div>
+
+<label for="number"> Number: </label>
+<input type="number" name="number" required>
+
+</div>
+
+<br>
+
+<div>
+
+<label for="address"> Address: </label>
+<input type="text" name="address" required>
+
+</div>
+
+<br>
+
+
+<div>
+
+<label for="Education Qualification"> Education: </label>
+
+<select>
+
+
+<option name="cse" value="cse"> CSE </option>
+<option name="llb" value="llb"> LLB </option>
+<option name="mbbs" value="mbbs"> MBBS </option>
+<option name="bsc" value="bsc" selected> BSC </option>
+
+</select>
+
+</div>
+
+<br>
+
+<div>
+
+<label for="cv file"> Add Your CV: </label>
+<input type="File" name="add file" value="add file" required>
+
+</div>
+
+<br>
+
+<div>
+
+<label for="password"> Password: </label>
+<input type="Password" name="password" required>
+
+</div>
+
+<br>
+
+<div>
+
+<label for="comment"> Messege: </label> <br>
+<textarea cols="100" rows="10" style="font-family:arial;" readonly> You Have Fill All The Forms,otherwise Your Form Will Not be Valid.So Please Fill All The Forms,Thank You. </textarea>
+
+
+</div>
+
+<br>
+
+<div>
+
+<input type="submit" name="submit" value="Apply"> 
+<input type="reset" name="reset" value="Clear">
+
+
+</div>
+
+
+</fieldset>
+
+</form>
+
+
+</body>
+
+
+
+
+
+
+</html>
